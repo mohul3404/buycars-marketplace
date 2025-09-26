@@ -1,0 +1,101 @@
+
+
+.car-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex; 
+  flex-direction: column; 
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-checkbox {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car-info {
+  padding: 1.2rem;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.car-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+}
+
+.car-description {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  flex-grow: 1; 
+}
+
+.car-description li {
+  margin-bottom: 0.3rem;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.edit-btn, .delete-btn {
+  flex-grow: 1;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center;
+  font-size: 0.9rem;
+  text-decoration: none; 
+}
+
+.edit-btn {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+.edit-btn:hover { 
+  background-color: #c7d2fe; 
+}
+
+.delete-btn {
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+.delete-btn:hover { 
+  background-color: #fecaca; 
+}
+.car-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.8rem;
+}

@@ -1,0 +1,69 @@
+
+
+.add-car-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.add-car-card {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px M30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 700px;
+}
+
+.add-car-card h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.add-car-card p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.add-car-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.add-car-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.add-car-form input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.add-car-form .desc-input {
+  margin-bottom: 0.5rem;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #16a34a; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #15803d;
+}
